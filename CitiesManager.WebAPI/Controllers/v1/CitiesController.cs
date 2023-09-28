@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using CitiesManager.WebAPI.DatabaseContext;
-using CitiesManager.WebAPI.Models;
 using Microsoft.AspNetCore.Cors;
+using CitiesManager.Infrastructure.DatabaseContext;
+using CitiesManager.Core.Entities;
 
 namespace CitiesManager.WebAPI.Controllers.v1 {
     [ApiVersion("1.0")]
