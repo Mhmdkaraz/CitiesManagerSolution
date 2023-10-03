@@ -86,7 +86,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 app.UseHsts();
 app.UseHttpsRedirection();
-
+app.UseStaticFiles();
 app.UseSwagger();//creates endpoint for swagger.json(contains the information related to all the action methods of the controllers)
 app.UseSwaggerUI(options => {
     options.SwaggerEndpoint("/swagger/v1/swagger.json", "1.0");
